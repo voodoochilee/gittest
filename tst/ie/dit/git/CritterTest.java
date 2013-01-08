@@ -13,6 +13,9 @@ public class CritterTest {
 
 	@Test
 	public void test() {
+		Critter c = new Critter();
+		c.setEyes(5);
+		assertEquals(5, c.getEyes());
 		fail("Not yet implemented");
 	}
 
