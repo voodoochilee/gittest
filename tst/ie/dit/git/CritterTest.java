@@ -21,6 +21,7 @@ public class CritterTest {
 	@Test
 	public void helloTest() {
 		Critter c = new Critter();
+		Critter d = new Critter();
 		assertEquals("Hello John", c.sayHello("John"));
 	}
 
