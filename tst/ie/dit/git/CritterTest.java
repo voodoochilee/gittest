@@ -16,7 +16,6 @@ public class CritterTest {
 		Critter c = new Critter();
 		c.setEyes(5);
 		assertEquals(5, c.getEyes());
-		fail("Not yet implemented");
 	}
 
 }
