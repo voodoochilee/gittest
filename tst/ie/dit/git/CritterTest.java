@@ -17,5 +17,11 @@ public class CritterTest {
 		c.setEyes(5);
 		assertEquals(5, c.getEyes());
 	}
+	
+	@Test
+	public void helloTest() {
+		Critter c = new Critter();
+		assertEquals("Hello John", c.sayHello("John"));
+	}
 
 }
