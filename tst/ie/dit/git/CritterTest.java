@@ -25,5 +25,13 @@ public class CritterTest {
 		assertEquals("Hello John", c.sayHello("John"));
 		d.printHello();
 	}
+	
+	@Test
+	public void hTest() {
+		Critter c = new Critter();
+		Critter d = new Critter();
+		assertEquals("Hello John", c.sayHello("John"));
+		d.printHello();
+	}
 
 }
