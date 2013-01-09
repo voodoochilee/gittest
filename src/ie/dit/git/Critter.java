@@ -7,6 +7,10 @@ public class Critter {
 	public String sayHello(String name) {
 		return "Hello " + name;
 	}
+	
+	public void printHello() {
+		System.out.println("Merhod call returns: " + sayHello("Triona"));
+	}
 
 	public int getEyes() {
 		return eyes;
