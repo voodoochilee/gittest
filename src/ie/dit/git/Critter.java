@@ -9,7 +9,7 @@ public class Critter {
 	}
 	
 	public void printHello() {
-		System.out.println("Merhod call returns: " + sayHello("Triona"));
+		System.out.println("Method call returns: " + sayHello("Triona"));
 	}
 
 	public int getEyes() {

@@ -23,6 +23,7 @@ public class CritterTest {
 		Critter c = new Critter();
 		Critter d = new Critter();
 		assertEquals("Hello John", c.sayHello("John"));
+		d.printHello();
 	}
 
 }
